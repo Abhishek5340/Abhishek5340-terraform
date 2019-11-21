@@ -1,12 +1,12 @@
-# module "Abhi-pipeline" {
-#     source = "github.com/upesabhi/terraform.git"
-
-# }
+module "Abhi-pipeline" {
+     source = "github.com/upesabhi/terraform"
+     
+ }
 
 variable "Abhishek5340" {
    default = "This is Sparta"
 }
 
 output "Abhi-OutPipe" {
-    value = var.Abhishek5340
+    value = "${module.Abhi-pipeline.result} ${var.Abhishek5340}"
 }
