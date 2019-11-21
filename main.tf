@@ -1,5 +1,5 @@
 # module "Abhi-pipeline" {
-#     source = "https://github.com/upesabhi/terraform.git"
+#     source = "github.com/upesabhi/terraform.git"
 
 # }
 
