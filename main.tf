@@ -1,5 +1,5 @@
 module "Abhi-pipeline" {
-    source = "upesabhi's git repo"
+    source = "https://github.com/upesabhi/terraform.git"
 
 }
 
@@ -8,5 +8,5 @@ variable "Abhishek5340" {
 }
 
 output "Abhi-OutPipe" {
-    value = "module.Abhi-pipeline.upesabhi outfile name + var.Abhishek5340"
+    value = "module.Abhi-pipeline.story + var.Abhishek5340"
 }
