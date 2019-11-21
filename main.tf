@@ -8,5 +8,5 @@ variable "Abhishek5340" {
 }
 
 output "Abhi-OutPipe" {
-    value = "module.Abhi-pipeline.story + var.Abhishek5340"
+    value = module.Abhi-pipeline.story + var.Abhishek5340
 }
